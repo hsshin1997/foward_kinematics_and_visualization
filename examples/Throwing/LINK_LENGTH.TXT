@@ -1,0 +1,46 @@
+# Link lengths	0
+# Units of meters	0
+# First number is the number of link lenght	
+# '#' indicates comments	
+# Data seperate by tab	
+31	
+#Spine	
+L01	0.06
+L02	0.06
+L03	0.06
+L04	0.21
+#Right Arm	
+L05	0.02
+L06	0.056
+L07	0.15
+L08	0.28
+L09	0.26
+L10	0.191
+#Left Arm	
+L11	0.02
+L12	0.056
+L13	0.15
+L14	0.28
+L15	0.26
+L16	0.191
+#Neck	
+L17	0.05
+L18	0.1
+#Right Leg	
+L19	0.09
+L20	0.1
+L21	0.44
+L22	0.43
+L23  	0.17
+#Left Leg
+L24	0.09
+L25	0.1
+L26	0.44
+L27	0.43
+L28	0.17
+#Right toe length	
+L29	0.06
+#Left toe length
+L30	0.06
+#Head length
+L31	0.2

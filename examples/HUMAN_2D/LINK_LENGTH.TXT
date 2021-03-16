@@ -1,0 +1,40 @@
+# Link lengths	0
+# Units of meters	0
+# First number is the number of link length
+# '#' indicates comments	
+# Data separated by tab	
+22	
+#Spine	
+L01	0.0922
+L02	0.495212
+#R_Arm
+L03	0.288297
+L04	0.262725
+L05	0.1
+#L_Arm
+L06	0.288297
+L07	0.262725
+L08	0.1
+#Neck
+L09	0.1
+L10	0.209686
+#R_Leg
+L11	0.377512
+L12	0.405764
+L13	0.145425
+L14	0.085216
+#L_Leg
+L15	0.377512
+L16	0.405764
+L17	0.145425
+L18	0.085216
+#foot height above shoe sole/toe
+L19	0.079742
+#shoe sole/toe height
+L20	0.03181
+#foot length
+L21	0.269408
+#ankle to toe ball length
+L22	0.121613
+
+

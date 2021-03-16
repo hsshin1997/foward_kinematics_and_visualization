@@ -1,0 +1,9 @@
+# Link lengths	0
+# Units of meters	0
+# First number is the number of link length
+# '#' indicates comments	
+# Data separated by tab	
+2
+#Spine	
+L01	0.1
+L02	0.1

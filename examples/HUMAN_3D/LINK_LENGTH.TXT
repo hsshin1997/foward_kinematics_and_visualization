@@ -1,0 +1,51 @@
+# Link lengths	0
+# Units of meters	0
+# First number is the number of link length
+# '#' indicates comments	
+# Data separated by tab	
+28	
+#Spine	
+L01	0.0922
+L02	0.495212
+#R_Arm
+L03	0.141337
+L04	0.288297
+L05	0.262725
+L06	0.1
+#L_Arm
+L07	0.141337
+L08	0.288297
+L09	0.262725
+L10	0.1
+#Neck
+L11	0.1
+L12	0.209686
+#R_Leg
+L13	0.135825
+L14	0.377512
+L15	0.405764
+L16	0.145425
+L17	0.085216
+#L_Leg
+L18	0.135825
+L19	0.377512
+L20	0.405764
+L21	0.145425
+L22	0.085216
+#Below is average value of left and right foot
+#foot height above shoe sole/toe
+L23	0.079742
+#shoe sole/toe height
+L24	0.03181
+#foot length
+L25	0.269408
+#ankle to toe ball length
+L26	0.121613
+#foot width
+L27	0.112654
+#foot axis to foot inner face width
+L28	0.046181
+
+
+
+

@@ -1,0 +1,42 @@
+# Link lengths	0
+# Units of meters	0
+# First number is the number of link length
+# '#' indicates comments	
+# Data separated by tab	
+27	
+#Spine	
+L01	0.1222
+#Torso Offset
+L02	0.0050
+#R_Arm
+L03	0.0820
+L04	0.0160
+L05	0.0600
+L06	0.0160
+L07	0.0776660
+L08	0.1290
+#L_Arm
+L09	0.0820
+L10	0.0160
+L11	0.0600
+L12	0.0160
+L13	0.0776660
+L14	0.1290
+#Neck 
+L15	0.0505
+L16	0.005
+L17	0.0344
+#R_Leg
+L18	0.0370
+L19	0.0930
+L20	0.0930
+L21	0.0335
+L22	0.0520
+#L_Leg
+L23	0.0370
+L24	0.0930
+L25	0.0930
+L26	0.0335
+L27	0.0520
+
+

@@ -1,0 +1,61 @@
+# This file contains the skeleton organization into branches and associated DH parameters
+# Hash (#) indicates comments										
+# All entries must be seperated by tabs										
+# Sigma is 0 for a rotational joint and 1 for a translation joint										
+# Theta, d, a, and Alpha are all DH parameters										
+# Note that d and a are either 0 or the link length index. The sign indicates if the length is positive or negative
+# This file is organized into a series of branches with each branch containing the appropriate DH parameters										
+# These branches are created as follows										
+#										
+# Branch Name	Parent Branch	Number of Transforms in this branch	Number of children branches	First Child 	Second Child	Third Child
+# First Transform DH Parameters
+# Seconds Transform DH Parameters
+# .......................
+# Last Transform DH Parameters
+#										
+# DARWIN 2D 05092019										
+# Number of Branches						
+6						
+#Start Branch Data						
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4 Child 5
+Global	-1	3	5	1	2	3	4	5
+#Sigma	Theta	d	a	Alpha		
+1	1.570796	*	*	1.570796		
+1	1.570796	-22&2	*	1.570796		
+1	-1.570796	19&20&21	*	-1.570796		
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4
+R_Arm	0	3	0	-1	-1	-1	-1
+#Sigma	Theta	d	a	Alpha		
+0	-1.570796	*	1	0
+0	-2.934096	*	7	*
+0	-0.207496	*	8	*
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4
+L_Arm	0	3	0	-1	-1	-1	-1
+#Sigma	Theta	d	a	Alpha
+0	-1.570796	*	1	0
+0	-2.934096	*	13	*
+0	-0.207496	*	14	*		
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~								
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4
+Neck	0	2	0	-1	-1	-1	-1
+#Sigma	Theta	d	a	Alpha		
+0	-1.570796	0	1&15	0	
+0	0	*	17	*		
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~					
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4
+R_Leg	0	4	0	-1	-1	-1	-1
+#Sigma	Theta	d	a	Alpha		
+0	0	*	2	0
+0	1.570796	*	19	*
+0	0	*	20	*
+0	0	*	21	*		
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Name	Parent	nTrans 	nChild	Child1	Child2	Child3	Child4
+L_Leg	0	4	0	-1	-1	-1	-1
+#Sigma	Theta	d	a	Alpha		
+0	0	*	2	0
+0	1.570796	*	24	*		
+0	0	*	25	*		
+0	0	*	26	*

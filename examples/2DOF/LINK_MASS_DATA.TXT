@@ -1,0 +1,16 @@
+# Center of Gravity locations for each link with respect to local coordinate system
+# units are SI
+# Note: The branch transform starts at 1 (not 0)
+# '#' indicates a comment
+# Branch Transform, mass, cg.X, cg.Y, cg.Z, Ixx, Iyy, Izz, Ixy, Ixz, Iyz using sign convention Ixy = integral of -xy dm
+# 2D Darwin 05092019
+# Global										
+1	0.00000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.0	0.0	0.0
+2	0.00000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.0	0.0	0.0
+3	0.00000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.0	0.0	0.0
+# IP									
+1	0.0	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+2	0.1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+3	0.1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+
+
